@@ -1,29 +1,28 @@
-# zzuli-board
+# 项目介绍
 
-This template should help get you started developing with Vue 3 in Vite.
+ZZULI Board 是一个基于 Vue 3 开发的现代化 Web 应用，用于展示 ZZULI 相关的 QQ 群、友情链接。
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 项目结构
 
-## Customize configuration
+* `src` 目录：存放源代码
+* `public` 目录：存放静态资源
+* `package.json`：项目配置文件
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 如何运行
 
-## Project Setup
+1. 克隆项目仓库
+2. 安装依赖包：`npm install` 或 `yarn install`
+3. 启动开发服务器：`npm run dev` 或 `yarn dev`
 
-```sh
-npm install
-```
+## 如何贡献
 
-### Compile and Hot-Reload for Development
+* Fork 项目仓库
+* 创建新分支：`git checkout -b my-feature`
+* 提交代码：`git commit -m "我的修改"`
+* 发起 Pull Request
 
-```sh
-npm run dev
-```
+## 许可证
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+本项目使用 MIT 许可证。
+体验链接：https://zzuliboard.shiyio.uk
