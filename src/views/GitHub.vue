@@ -73,13 +73,13 @@ const sponsors = ref([
   {
     id: 1,
     name: '微信支付',
-    qrcode: 'src/assets/weixin.jpg',
+    qrcode: 'https://img.picui.cn/free/2025/04/11/67f8c4e724848.jpg',
     icon: '💚'
   },
   {
     id: 2,
     name: '支付宝',
-    qrcode: 'src/assets/zhifubao.jpg',
+    qrcode: 'https://img.picui.cn/free/2025/04/11/67f8c4e724506.jpg',
     icon: '💙'
   }
 ])

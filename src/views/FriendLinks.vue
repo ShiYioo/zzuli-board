@@ -37,7 +37,7 @@ const links = ref([
     name: '失意&小库',
     url: 'http://reblog.shiyio.uk',
     description: '一个初学java的菜鸟的博客,备用地址http://blog.shiyio.uk',
-    icon: 'src/assets/shiyiblog.jpg'
+    icon: 'https://img.picui.cn/free/2025/04/11/67f8c4e6c1bba.jpg'
   }
 ])
 </script>
