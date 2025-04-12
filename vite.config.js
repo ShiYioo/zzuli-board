@@ -16,5 +16,15 @@ export default defineConfig({
   build: {
     assetsInlineLimit: 0,
     assetsDir: 'assets'
+  },
+  server: {
+    proxy: {
+      // Configure proxy for GitHub requests
+      '/github-api': {
+        target: 'https://github.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/github-api/, '')
+      }
+    }
   }
 })
