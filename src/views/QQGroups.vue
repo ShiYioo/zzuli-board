@@ -45,10 +45,18 @@ const groups = ref([
     id: 1,
     name: '24C语言交流群',
     number: '148518259',
-    description: '24C语言交流群是一个专门为24C语言开发者提供的交流群，欢迎加入！',
+    description: '一个专门为24届学生提供的C语言交流群。',
     members: 2000,
     avatar: 'http://p.qlogo.cn/gh/148518259/148518259/0',
   },
+  {
+    id: 2,
+    name: "郑轻嵌入式交流群",
+    number: '967494035',
+    description: '一个专门为郑轻嵌入式开发者提供的交流群，欢迎加入！',
+    members: 500,
+    avatar: 'http://p.qlogo.cn/gh/967494035/967494035/0',
+  }
 ])
 
 const copyQQNumber = (number) => {
