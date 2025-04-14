@@ -35,7 +35,8 @@ const menuItems = ref([
   { id: 'qq', name: 'QQ群', icon: '👥', route: '/' },
   { id: 'links', name: '友情链接', icon: '🔗', route: '/friend-links' },
   { id: 'github', name: 'GitHub', icon: '🌟', route: '/github' },
-  { id: 'comments', name: '评论区', icon: '💬', route: '/comments' }
+  { id: 'comments', name: '评论区', icon: '💬', route: '/comments' },
+  { id: 'promotion', name: '推广页面', icon: '🚀', route: '/promotion' }
 ])
 
 const activeMenu = ref('qq')
