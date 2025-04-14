@@ -209,7 +209,7 @@ const showCopyToast = ref(false);
 
 // 复制邮箱到剪贴板
 const copyEmailToClipboard = () => {
-  const email = '1234567890@qq.com';
+  const email = '3401187804@qq.com';
   navigator.clipboard.writeText(email).then(() => {
     showCopyToast.value = true;
     setTimeout(() => {
@@ -705,113 +705,113 @@ onBeforeUnmount(() => {
   .promotion-container {
     padding: 5px;
   }
-  
+
   .section-title {
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .carousel-container {
     margin-bottom: 15px;
   }
-  
+
   .carousel-inner {
     height: 180px;
   }
-  
+
   .slide-content {
     padding: 10px;
   }
-  
+
   .slide-content h2 {
     font-size: 18px;
     margin-bottom: 5px;
   }
-  
+
   .slide-content p {
     font-size: 12px;
     -webkit-line-clamp: 2;
   }
-  
+
   .ad-categories {
     overflow-x: auto;
     padding-bottom: 5px;
     margin-bottom: 15px;
     -webkit-overflow-scrolling: touch;
   }
-  
+
   .category-button {
     padding: 6px 12px;
     font-size: 12px;
     flex-shrink: 0;
   }
-  
+
   .category-icon {
     margin-right: 4px;
     font-size: 14px;
   }
-  
+
   .ads-grid {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  
+
   .ad-image-container {
     height: 160px;
   }
-  
+
   .cta-section {
     margin-bottom: 20px;
   }
-  
+
   .cta-card {
     padding: 20px 15px;
   }
-  
+
   .cta-card h2 {
     font-size: 18px;
   }
-  
+
   .cta-card p {
     font-size: 14px;
     margin-bottom: 15px;
   }
-  
+
   .ios-button {
     padding: 10px 20px;
     font-size: 14px;
   }
-  
+
   .modal-content {
     width: 95%;
   }
-  
+
   .modal-header {
     padding: 12px 15px;
   }
-  
+
   .modal-header h3 {
     font-size: 16px;
   }
-  
+
   .contact-form {
     padding: 15px;
   }
-  
+
   .contact-info {
     padding: 15px;
   }
-  
+
   .contact-icon {
     font-size: 30px;
     margin-bottom: 10px;
   }
-  
+
   .contact-email {
     font-size: 14px;
     word-break: break-all;
   }
-  
+
   .toast-message {
     width: 90%;
     max-width: 300px;
