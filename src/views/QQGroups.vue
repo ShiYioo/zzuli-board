@@ -56,6 +56,14 @@ const groups = ref([
     description: '一个专门为郑轻嵌入式开发者提供的交流群，欢迎加入！',
     members: 500,
     avatar: 'http://p.qlogo.cn/gh/967494035/967494035/0',
+  },
+  {
+    id: 3,
+    name: 'zzuli软院萌新交流群',
+    number: '967494035',
+    description: '一个软件学院新手开发者聚集地，禁止广告盈利，用于学术交流',
+    members: 500,
+    avatar: 'http://p.qlogo.cn/gh/834896850/834896850/0',
   }
 ])
 
