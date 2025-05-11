@@ -1,5 +1,9 @@
 <template>
   <div class="qq-groups-container">
+
+    <div class="visitor-counter">
+      <img src="https://count.getloli.com/@shiyizzuliboard?name=shiyizzuliboard&theme=rule34&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt=":shiyizzuliboard" />
+    </div>
     <h1 class="section-title">QQ群</h1>
 
     <div class="groups-list">
@@ -84,6 +88,35 @@ const copyQQNumber = (number) => {
   max-width: 600px;
   margin: 0 auto;
 }
+.visitor-counter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.visitor-counter img {
+  border-radius: 18px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  max-width: 100%;
+}
+
+.visitor-counter img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--ios-text-color, #333);
+}
+
 
 .groups-list {
   display: flex;
