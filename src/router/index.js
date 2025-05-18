@@ -28,11 +28,11 @@ const router = createRouter({
       name: 'comments',
       component: Comments
     },
-    {
-      path: '/promotion',
-      name: 'promotion',
-      component: Promotion
-    }
+    // {
+    //   path: '/promotion',
+    //   name: 'promotion',
+    //   component: Promotion
+    // }
   ]
 })
 
