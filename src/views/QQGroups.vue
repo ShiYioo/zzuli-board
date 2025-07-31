@@ -47,11 +47,11 @@ import { ref } from 'vue'
 const groups = ref([
   {
     id: 1,
-    name: '24C语言交流群',
-    number: '148518259',
-    description: '一个专门为24届学生提供的C语言交流群。',
+    name: '25C语言交流群',
+    number: '群聊未能被搜索',
+    description: '一个专门为25届学生提供的C语言交流群',
     members: 2000,
-    avatar: 'http://p.qlogo.cn/gh/148518259/148518259/0',
+    avatar: 'http://p.qlogo.cn/gh/148518259/1025165103/0',
   },
   {
     id: 2,
@@ -63,12 +63,12 @@ const groups = ref([
   },
   {
     id: 3,
-    name: 'zzuli软院萌新交流群',
-    number: '967494035',
-    description: '一个软件学院新手开发者聚集地，禁止广告盈利，用于学术交流',
-    members: 500,
-    avatar: 'http://p.qlogo.cn/gh/834896850/834896850/0',
-  }
+    name: "25郑轻百度贴吧官方迎新群",
+    number: '971991770',
+    description: '迎新',
+    members: 2000,
+    avatar: 'http://p.qlogo.cn/gh/967494035/971991770/0',
+  },
 ])
 
 const copyQQNumber = (number) => {
