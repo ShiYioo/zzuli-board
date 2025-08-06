@@ -69,6 +69,22 @@ const groups = ref([
     members: 2000,
     avatar: 'http://p.qlogo.cn/gh/967494035/971991770/0',
   },
+  {
+    id: 4,
+    name: "软件创新实验室2025招新群",
+    number: '787632933',
+    description: '校内就业目前top1',
+    members: 2000,
+    avatar: 'http://p.qlogo.cn/gh/967494035/787632933/0',
+  },
+  {
+    id: 5,
+    name: "计算机爱好者协会25群",
+    number: '905014613',
+    description: '计算机高手交流群',
+    members: 2000,
+    avatar: 'http://p.qlogo.cn/gh/967494035/905014613/0',
+  },
 ])
 
 const copyQQNumber = (number) => {

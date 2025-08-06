@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="msg">如果需要在添加群聊和友链请添加QQ<p style="color: red">3401187804</p></div>
+    <div class="msg">如果有需要新增和修改请提交Pr和联系维护者</div>
 
     <div class="sponsor-section">
       <h2 class="subsection-title">赞助支持</h2>
@@ -62,9 +62,9 @@ import { ref } from 'vue'
 
 const websiteInfo = ref({
   name: '郑州轻工业大学信息展示栏',
-  description: '这是一个基于Vue 3开发的现代化Web应用，用于展示郑州轻工业大学相关的QQ群、友情链接。',
-  version: '1.0.0',
-  lastUpdated: '2025-04-11',
+  description: '这是一个基于Vue 3开发的现代化Web应用，用于展示郑州轻工业大学相关的QQ群、友情链接。群聊均来源投稿和维护者收集',
+  version: '1.1.0',
+  lastUpdated: '2025-08-06',
   author: 'Shi Yi',
   license: 'MIT'
 })
