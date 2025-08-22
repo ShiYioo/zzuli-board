@@ -122,7 +122,7 @@ const githubComments = async (pageNumber)=>{
 
   try {
     console.log('正在获取GitHub评论数据，页码:', pageNumber)
-    const html = await fetchHtml('/github-api/2743305544/zzuli-board/issues?page=' + pageNumber)
+    const html = await fetchHtml('/github-api/ShiYioo/zzuli-board/issues?page=' + pageNumber)
     const parseHtmlComments1 = parseHtmlComments(html, 'https://img.picui.cn/free/2025/04/12/67f9db6d87769.jpg');
 
     if (parseHtmlComments1 && parseHtmlComments1.length > 0) {
