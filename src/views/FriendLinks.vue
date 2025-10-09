@@ -42,9 +42,9 @@ const links = ref([
   {
     id: 3,
     name: 'DevBeginner Doc',
-    url: 'https://www.frexlink.cn/',
+    url: 'https://wiki.frexlink.cn/',
     description: '一个面向编程初学者的帮助文档',
-    icon: 'https://www.frexlink.cn/svg/Logo_Thick.svg'
+    icon: 'https://wiki.frexlink.com/assets/hero-logo.svg'
   }
 ])
 </script>
